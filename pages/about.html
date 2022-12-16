@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="../styles/about.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -29,16 +29,15 @@
     <nav>
       <div class="topnav" id="myTopnav">
         <a
-          href="index.html"
-          class="active"
+          href="../index.html"
           class="topnav__link"
           class="topnav__link--active"
           >Home</a
         >
-        <a href="pages/about.html" class="topnav__link">About</a>
-        <a href="pages/skills.html" class="topnav__link">Skills</a>
-        <a href="pages/projects.html" class="topnav__link">Projects</a>
-        <a href="pages/contact.html" class="topnav__link">Contact</a>
+        <a href="about.html" class="active" class="topnav__link">About</a>
+        <a href="skills.html" class="topnav__link">Skills</a>
+        <a href="projects.html" class="topnav__link">Projects</a>
+        <a href="contact.html" class="topnav__link">Contact</a>
         <a
           href="javascript:void(0);"
           class="icon"
@@ -51,13 +50,26 @@
     </nav>
 
     <main>
-      <section class="titlepage">
-        <h1 class="titlepage__heading1">
-          <b>Shugi Kuriakose</b>
-        </h1>
-        <hr class="titlepage__hbreak" />
-        <h2 class="titlepage__heading2">Junior Software Developer</h2>
-      </section>
+      <div class="aboutmecontainer">
+        <div class="aboutmeimage">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS30NOx9zDCayL4VowaMmcCRycjaFUcT4m2Cw&usqp=CAU"
+            class="aboutme__img"
+          />
+        </div>
+        <div class="aboutme">
+          <p>
+            <em
+              >My name is Shugi and I'm an aspiring software engineer. With a
+              background in Chemical Engineering Research in the field of
+              Modeling and Simulation, I recently retrained in IT as a Full
+              Stack Developer. I believe that the analytical and problem solving
+              skills developed as a researcher will enhance my ability to
+              deliver effective solutions for businesses.</em
+            >
+          </p>
+        </div>
+      </div>
     </main>
   </body>
 </html>

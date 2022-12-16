@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/129ed98049.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/129ed98049.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <div class="topnav" id="myTopnav">
+        <a
+          href="../index.html"
+          class="topnav__link"
+          class="topnav__link--active"
+          >Home</a
+        >
+        <a href="about.html" class="topnav__link">About</a>
+        <a href="skills.html" class="active" class="topnav__link">Skills</a>
+        <a href="projects.html" class="topnav__link">Projects</a>
+        <a href="contact.html" class="topnav__link">Contact</a>
+        <a
+          href="javascript:void(0);"
+          class="icon"
+          class="topnav__link"
+          onclick="myFunction()"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+    <div class="gridcontainer">
+      <div class="gridcontainer__item">
+        <i class="fa fa-html5 fa-5x" aria-hidden="true"></i>HTML5
+      </div>
+      <div class="gridcontainer__item">
+        <i class="fa-brands fa-square-js fa-5x"></i>javascript
+      </div>
+
+      <div class="gridcontainer__item">
+        <i class="fa fa-css3 fa-5x" aria-hidden="true"></i>CSS
+      </div>
+
+      <div class="gridcontainer__item">
+        <i class="fa fa-github fa-5x" aria-hidden="true"></i>Git/GitHub
+      </div>
+      <div class="gridcontainer__item">
+        <i class="fa-brands fa-react fa-5x" aria-hidden="true"></i>React
+      </div>
+      <div class="gridcontainer__item">
+        <i class="fa-brands fa-java fa-5x"></i>java
+      </div>
+
+      <div class="gridcontainer__item">
+        <i class="fa-brands fa-sass fa-5x" aria-hidden="true"></i>SCSS
+      </div>
+
+      <div class="gridcontainer__item">
+        <i class="fa-brands fa-salesforce fa-5x" aria-hidden="true"></i>
+      </div>
+    </div>
+  </body>
+</html>
