@@ -16,6 +16,8 @@ Icons used are from Awesome Fonts.
 
 - Public repository on GitHub
   https://github.com/ShugiKuriakose/Portfolio
+- The website is hosted on GitHub Pages
+  https://ShugiKuriakose.github.io/Portfolio
 
 - README.md has been added to the repo
 - Styling was done using SCSS.
